@@ -7,17 +7,19 @@ Problem Statement
 -----------------
 
 We have built a chatbot for answering exam venue 
-and exam date related queries.
+and exam date related queries. 
 
 * We scrapped exam time table from IIT Guwahati 
 Academic Section website and served the responses
-using a Python API.  
+using a Python (django-rest-framework) API.  
 * The user is asked to enter course number and 
 roll number.
 
 Screenshots of Bot Flow
 -----------------------
 
+
+![flow-diagram](flow.png)
 
 
 Chatbot JSON File
@@ -27,7 +29,7 @@ Chatbot JSON File
 dashboard.
 
 
-Team
+Team 
 -----
 Team Name: **SUDO**
 

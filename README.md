@@ -1,7 +1,7 @@
 # MyPolly Botathon 2017, IIT Guwahati
 
-This repository contains team **sudo**'s submission for Datalog.ai 
-MyPolly botathon.
+This repository contains team **sudo**'s submission for 
+[Datalog.ai](http://www.datalog.ai/) [MyPolly](http://mypolly.ai/) botathon.
  
 Problem Statement
 -----------------
@@ -21,6 +21,21 @@ Screenshots of Bot Flow
 
 ![flow-diagram](flow.png)
 
+
+Example Conversation 1
+------------------------
+:computer: : Hello! Nice to meet you. Please use me to know your exam date and venue.  
+:boy: : My roll number is 130101075.  
+:computer: Please provide a valid course number.  
+:boy: : CS101  
+:computer: Your exam date is 29-May-2017 and the venue is Lecture Theatre 1. Best of Luck!
+
+
+Example Conversation 2
+------------------------
+:computer: : Hello! Nice to meet you. Please use me to know your exam date and venue.  
+:boy: : CS101 for 130101075.   
+:computer: Your exam date is 29-May-2017 and the venue is Lecture Theatre 1. Best of Luck!
 
 Chatbot JSON File
 -----------------
